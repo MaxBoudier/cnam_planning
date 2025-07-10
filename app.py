@@ -1,4 +1,7 @@
 from flask import Flask, render_template, send_file, jsonify
+from dotenv import load_dotenv
+load_dotenv()
+
 import google_sheet_manager
 import ics_generator
 
